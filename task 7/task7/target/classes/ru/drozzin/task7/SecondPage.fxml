@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<VBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ru.drozzin.task7.Controller.SecondPage">
+   <children>
+      <HBox alignment="TOP_CENTER" prefHeight="100.0" prefWidth="200.0" style="-fx-background-color: #575757;">
+         <children>
+            <Button mnemonicParsing="false" text="Назад" />
+            <Label alignment="CENTER" prefHeight="123.0" prefWidth="440.0" text="MARATHON SKILLS 2016" textFill="WHITE">
+               <font>
+                  <Font size="16.0" />
+               </font></Label>
+            <Button mnemonicParsing="false" text="Logout" />
+         </children>
+      </HBox>
+      <HBox alignment="TOP_CENTER" prefHeight="100.0" prefWidth="200.0">
+         <children>
+            <Button fx:id="Autorize" alignment="CENTER" contentDisplay="CENTER" mnemonicParsing="false" onAction="#Autorize" text="Я участвовал ранее" />
+         </children>
+      </HBox>
+      <HBox alignment="TOP_CENTER" prefHeight="100.0" prefWidth="200.0">
+         <children>
+            <Button fx:id="Reg" mnemonicParsing="false" onAction="#Regestration" text="Я новый участник" />
+         </children>
+      </HBox>
+      <HBox alignment="BOTTOM_RIGHT" prefHeight="100.0" prefWidth="200.0">
+         <children>
+            <Button mnemonicParsing="false" text="Login" />
+         </children>
+      </HBox>
+      <HBox alignment="CENTER" prefHeight="100.0" prefWidth="200.0" style="-fx-background-color: #575757;">
+         <children>
+            <Label text="18 дней 8 часов и 17 минут до старта марафона!" textFill="WHITE">
+               <font>
+                  <Font size="16.0" />
+               </font></Label>
+         </children>
+      </HBox>
+   </children>
+</VBox>
